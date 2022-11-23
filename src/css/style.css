@@ -87,6 +87,7 @@ img {
    display: block;
    max-width: 100%;
    height: auto;
+
 }
 
 h1,
@@ -206,19 +207,23 @@ ol {
    height: 100%;
    max-width: unset;
    object-fit: cover;
+   border-radius: 5px;
 }
 
 .info {
    display: flex;
    align-items: center;
    justify-content: space-around;
-
    margin: 5px;
 }
 
 .info-item {
    text-align: center;
    font-size: 10px;
+   color: #faf60e;
+   background: rgba(0, 0, 0, 0.26);
+   border-radius: 7px;
+   padding: 2px 11px;
 }
 
 /*  */

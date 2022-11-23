@@ -147,9 +147,7 @@ ol {
    width: 600px;
    height: 40px;
    padding: 10px;
-
    font-size: 16px;
-
    outline: none;
    border: none;
    border-top-left-radius: 5px;
@@ -159,13 +157,10 @@ ol {
 .btn {
    width: 100px;
    height: 40px;
-
    font-size: 16px;
-
    border: none;
    border-top-right-radius: 5px;
    border-bottom-right-radius: 5px;
-
    cursor: pointer;
    transition: background-color 300ms linear, color 300ms linear;
 }
@@ -201,7 +196,7 @@ ol {
 }
 
 .photo-card:hover {
-   transition-duration: 250ms;
+   transition-duration: 150ms;
    transform: scale(1.01);
 }
 

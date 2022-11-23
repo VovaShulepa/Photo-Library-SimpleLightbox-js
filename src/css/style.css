@@ -197,10 +197,16 @@ ol {
    margin-left: 15px;
    margin-top: 30px;
    max-width: 300px;
-
    border: 10px solid transparent;
    cursor: pointer;
 }
+
+.photo-card:hover {
+   transition-duration: 1500ms;
+   transform: scale(1.03);
+}
+
+
 
 .img-item {
    width: 100%;
